@@ -20,8 +20,9 @@ echo -e "";
 echo -e "Removing temp $tempname";
 # Removing temp .deb file
 rm -rf $tempname >/dev/null
+echo -e "";
 echo -e "Finished"
 echo -e "";
-echo -e "Launching $name"
+echo -e "You can now launch Discord by typing: discord";
 echo -e "";
-discord  & >/dev/null 2>&1
+
